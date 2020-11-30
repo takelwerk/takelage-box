@@ -1,0 +1,25 @@
+---
+scopes:
+  takelage.ansible:
+    - name: ansible/roles/takel-anarchism
+    - name: ansible/roles/takel-base
+    - name: ansible/roles/takel-cleanup
+    - name: ansible/roles/takel-systemd
+    - name: ansible/roles/takel-ufw
+    - name: ansible/roles/takel-unattended-upgrades
+  takelage.packer:
+    - name: packer/templates/vbox/takelbase/base
+    - name: packer/templates/vbox/takelbase/project
+  takelage.rake:
+    - name: rake/ansible/docker/takelbase/project/lib
+    - name: rake/ansible/docker/takelbase/project/prod
+    - name: rake/ansible/docker/takelbase/roles/lib
+    - name: rake/ansible/docker/takelbase/roles/role
+    - name: rake/dockerhub/takelbase/project/prod/registry
+    - name: rake/git
+    - name: rake/image/vbox/takelbase/base
+    - name: rake/image/vbox/takelbase/project/prod
+    - name: rake/meta
+    - name: rake/rubylint
+    - name: rake/vagrantup/takelbase/base/cloud
+    - name: rake/vagrantup/takelbase/project/cloud
