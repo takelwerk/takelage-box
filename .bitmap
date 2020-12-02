@@ -374,5 +374,48 @@
         "origin": "IMPORTED",
         "originallySharedDir": "ansible/roles/takel-unattended-upgrades"
     },
+    "takelage.packer/packer/templates/vbox/takelbase/base@0.0.4": {
+        "files": [
+            {
+                "name": "README.bit",
+                "relativePath": "README.bit",
+                "test": false
+            },
+            {
+                "name": "apt.sh",
+                "relativePath": "debian10/bin/apt.sh",
+                "test": false
+            },
+            {
+                "name": "guest.sh",
+                "relativePath": "debian10/bin/guest.sh",
+                "test": false
+            },
+            {
+                "name": "ssh.sh",
+                "relativePath": "debian10/bin/ssh.sh",
+                "test": false
+            },
+            {
+                "name": "sudo.sh",
+                "relativePath": "debian10/bin/sudo.sh",
+                "test": false
+            },
+            {
+                "name": "preseed.cfg",
+                "relativePath": "debian10/http/preseed.cfg",
+                "test": false
+            },
+            {
+                "name": "packer.json",
+                "relativePath": "debian10/packer.json",
+                "test": false
+            }
+        ],
+        "mainFile": "README.bit",
+        "rootDir": "packer/templates/vbox/takelbase/base",
+        "origin": "IMPORTED",
+        "originallySharedDir": "packer/templates/vbox/takelbase/base"
+    },
     "version": "14.8.8"
 }
