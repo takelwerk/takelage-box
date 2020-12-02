@@ -625,5 +625,23 @@
         "origin": "IMPORTED",
         "originallySharedDir": "rake/rubylint"
     },
+    "takelage.rake/rake/vagrantup/takelbase/base/cloud@0.0.5": {
+        "files": [
+            {
+                "name": "README.bit",
+                "relativePath": "README.bit",
+                "test": false
+            },
+            {
+                "name": "Rakefile",
+                "relativePath": "Rakefile",
+                "test": false
+            }
+        ],
+        "mainFile": "README.bit",
+        "rootDir": "rake/vagrantup/takelbase/base/cloud",
+        "origin": "IMPORTED",
+        "originallySharedDir": "rake/vagrantup/takelbase/base/cloud"
+    },
     "version": "14.8.8"
 }
