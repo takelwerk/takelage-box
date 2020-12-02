@@ -417,5 +417,33 @@
         "origin": "IMPORTED",
         "originallySharedDir": "packer/templates/vbox/takelbase/base"
     },
+    "takelage.packer/packer/templates/vbox/takelbase/project@0.0.3": {
+        "files": [
+            {
+                "name": "README.bit",
+                "relativePath": "README.bit",
+                "test": false
+            },
+            {
+                "name": "ssh.sh",
+                "relativePath": "bin/ssh.sh",
+                "test": false
+            },
+            {
+                "name": "build_from_base.json",
+                "relativePath": "build_from_base.json",
+                "test": false
+            },
+            {
+                "name": "takelpad.rb",
+                "relativePath": "vagrantfile/takelpad.rb",
+                "test": false
+            }
+        ],
+        "mainFile": "README.bit",
+        "rootDir": "packer/templates/vbox/takelbase/project",
+        "origin": "IMPORTED",
+        "originallySharedDir": "packer/templates/vbox/takelbase/project"
+    },
     "version": "14.8.8"
 }
