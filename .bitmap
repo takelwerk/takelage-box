@@ -258,5 +258,43 @@
         "origin": "IMPORTED",
         "originallySharedDir": "ansible/roles/takel-systemd"
     },
+    "takelage.ansible/ansible/roles/takel-ufw@0.0.1": {
+        "files": [
+            {
+                "name": "README.bit",
+                "relativePath": "README.bit",
+                "test": false
+            },
+            {
+                "name": "main.yml",
+                "relativePath": "defaults/main.yml",
+                "test": false
+            },
+            {
+                "name": "install.yml",
+                "relativePath": "tasks/install.yml",
+                "test": false
+            },
+            {
+                "name": "main.yml",
+                "relativePath": "tasks/main.yml",
+                "test": false
+            },
+            {
+                "name": "rules.yml",
+                "relativePath": "tasks/rules.yml",
+                "test": false
+            },
+            {
+                "name": "default_ufw.j2",
+                "relativePath": "templates/default_ufw.j2",
+                "test": false
+            }
+        ],
+        "mainFile": "README.bit",
+        "rootDir": "ansible/roles/takel-ufw",
+        "origin": "IMPORTED",
+        "originallySharedDir": "ansible/roles/takel-ufw"
+    },
     "version": "14.8.8"
 }
