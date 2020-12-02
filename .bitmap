@@ -643,5 +643,23 @@
         "origin": "IMPORTED",
         "originallySharedDir": "rake/vagrantup/takelbase/base/cloud"
     },
+    "takelage.rake/rake/vagrantup/takelbase/project/cloud@0.0.2": {
+        "files": [
+            {
+                "name": "README.bit",
+                "relativePath": "README.bit",
+                "test": false
+            },
+            {
+                "name": "Rakefile",
+                "relativePath": "Rakefile",
+                "test": false
+            }
+        ],
+        "mainFile": "README.bit",
+        "rootDir": "rake/vagrantup/takelbase/project/cloud",
+        "origin": "IMPORTED",
+        "originallySharedDir": "rake/vagrantup/takelbase/project/cloud"
+    },
     "version": "14.8.8"
 }
