@@ -4,6 +4,7 @@ scopes:
     - name: ansible/roles/takel-anarchism
     - name: ansible/roles/takel-base
     - name: ansible/roles/takel-cleanup
+    - name: ansible/roles/takel-docker
     - name: ansible/roles/takel-systemd
     - name: ansible/roles/takel-ufw
     - name: ansible/roles/takel-unattended-upgrades
