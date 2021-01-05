@@ -7,4 +7,5 @@
     - takel-anarchism
     - takel-ufw
     - takel-unattended-upgrades
+    - takel-docker
     - takel-cleanup
