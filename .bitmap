@@ -417,7 +417,7 @@
         "origin": "IMPORTED",
         "originallySharedDir": "packer/templates/vbox/takelbase/base"
     },
-    "takelage.packer/packer/templates/vbox/takelbase/project@0.0.5": {
+    "takelage.packer/packer/templates/vbox/takelbase/project@0.0.6": {
         "files": [
             {
                 "name": "README.bit",
@@ -432,11 +432,6 @@
             {
                 "name": "build_from_base.json",
                 "relativePath": "build_from_base.json",
-                "test": false
-            },
-            {
-                "name": "takelpad.rb",
-                "relativePath": "vagrantfile/takelpad.rb",
                 "test": false
             }
         ],
