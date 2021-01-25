@@ -417,7 +417,7 @@
         "origin": "IMPORTED",
         "originallySharedDir": "packer/templates/vbox/takelbase/base"
     },
-    "takelage.packer/packer/templates/vbox/takelbase/project@0.0.4": {
+    "takelage.packer/packer/templates/vbox/takelbase/project@0.0.5": {
         "files": [
             {
                 "name": "README.bit",
