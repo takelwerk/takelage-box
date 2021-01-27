@@ -8,4 +8,6 @@
     - takel-ufw
     - takel-unattended-upgrades
     - takel-docker
+    - takel-box
+    - takel-systemd
     - takel-cleanup

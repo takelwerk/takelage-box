@@ -1,0 +1,5 @@
+---
+- name: Set name of docker image
+  copy:
+    content: "{{ takel_box_image }}"
+    dest: "{{ takel_box_image_rcfile }}"

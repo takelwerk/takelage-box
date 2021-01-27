@@ -1,0 +1,7 @@
+---
+- name: (main) include image tasks
+  import_tasks: image.yml
+  tags:
+    - takel
+    - takel_box
+    - takel_box_image

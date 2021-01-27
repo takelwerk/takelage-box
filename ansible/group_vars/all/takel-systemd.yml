@@ -1,0 +1,31 @@
+takel_systemd_service_list:
+  - name: takelbox-start-docker-container
+    type: simple
+    descripton: takelbox start docker container
+    wanted_by: multi-user.target
+    user: root
+    group: root
+    working_directory: /tmp
+    exec_start: >-
+      /usr/bin/docker run --tty $(cat {{ takel_box_image_rcfile }})
+  - name: takelbox-pull-docker-image
+    type: oneshot
+    descripton: takelbox pull docker image
+    wanted_by: multi-user.target
+    run_after:
+      - network-online.target
+    user: root
+    group: root
+    working_directory: /tmp
+    exec_start: >-
+      /usr/bin/docker pull $(cat {{ takel_box_image_rcfile }})
+
+takel_systemd_timer_list:
+  - name: pull-docker-image-timer
+    descripton: pull takelbox docker image periodically
+    service: takelbox-pull-docker-image.service
+    wanted_by: multi-user.target
+    persistent: false
+    timer:
+      on_startup_sec: 300s # time relative to systemd start
+      on_unit_active_sec: 300s # time relative time service unit start
